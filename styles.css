@@ -1,0 +1,136 @@
+.header {
+  
+  display: grid;
+  background-color: #D9D0C0; 
+  height: 300px;
+  width: 1200px;
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 30% 30% 40%; */
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+  /* columns: 1fr 1fr; */
+  /* justify-content: right; */
+  /* padding-left: 33px; */
+  /* grid-template-columns: 1fr 1fr; */
+  /* border-color: yellow;
+  border-style: solid; */
+  /* padding-top: 80px;  */
+}
+/* .logo {
+  padding-top: 20px;
+} */
+.header > div {
+  /* grid-template-columns: 1fr 1fr; */
+  justify-content: auto;
+  width: auto;
+}
+
+.header-item {
+  /* width: 50% */
+  /* display: grid; */
+  /* border-color: yellow;
+  border-style: solid; */
+  height: 300px;
+  /* width: 450px; */
+
+}
+/* .header-item {
+  /* display: flex; */
+  /* align-items: right; */
+  /* position: relative; */
+
+  /* padding-top: 160px;
+  padding-left: 200px;
+  border-color: blue;
+  border-style: solid;
+  height: 200px;
+
+}  */ 
+
+/* .box {
+  text-align: center;
+  background: black;
+  color: white;
+  width: 360px;
+} */
+
+/* .header-item > h1 {
+  color: green;
+} */
+
+.header-item:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: right; */
+  padding-left: 20px;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+  /* align-items: flex-end; */
+}
+
+.header-item:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  /* box-shadow: 0 0 8px 8px white inset; */
+  
+
+}
+
+/* .header-item:nth-child(2) > img {
+  box-shadow: 0 0 8px 8px white inset;
+} */
+
+
+.header-item:nth-child(3) {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* justify-content: flex-end; */
+  align-items: flex-end;
+  padding: 20px;
+
+
+}
+
+.header h1 {
+  font-family: "Calligraffitti", cursive;
+  font-weight: bolder;
+  font-style: normal;
+  color: #7E57C2;
+  font-size: 50pt;
+  
+}
+
+.header h2 {
+  font-family: "Calligraffitti", cursive;
+  font-weight: bold;
+  color: #7E57C2;
+  font-size: 20pt;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Handlee", cursive;
+  font-size: 13pt;
+  color: #7E57C2;
+}
+
+
+
+.footer {
+  text-align: center;
+  background-color: #4CAF50;
+  color: #7E57C2;
+  font-family: tahoma;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+/* @media screen and (min-width: 800px) {
+  .grid-container {grid-template-columns: 1fr;}
+   */
